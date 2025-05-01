@@ -28,11 +28,17 @@ Select ONE Additional
     <h1>My Top 3 Memories of <span>This Year</span></h1>
     <ol>
       <li>
-        <h3 id="mem1">Vacation to Puerto Rico</h3>
+        <h3 id="mem1">Vacation in Puerto Rico</h3>
         <ul>
          <li> Beautiful Weather</li>
           <li> Spent time with my mom, one of my bestfriends, and her mom</li>
           <li> Got to visit areas that my family lived in</li>
+            <img
+        src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-1240w,f_auto,q_auto:best/msnbc/Components/Art/COVER/051025/PRadv2.jpg"
+        width="200"
+        id="mem1pic"
+        style="display: none"
+        />
         </ul>
       </li>
 
@@ -42,45 +48,61 @@ Select ONE Additional
          
         </ul>
       </li>
-
+ <img
+        src="https://www.laguardiahs.org/ourpages/auto/2025/1/13/47851608/screenshot%202025-01-13%20at%208_50_50_am.jpg"
+        width="200"
+        id="mem2pic"
+        style="display: none"
+        />
       <li>
         <h3 id="mem3">Easter</h3>
+
       <ul>
         <li> Spent time with my brother after 2 1/2 years</li>
         <li> My cousin and I created an eventful Easter for my neice and nephew</li>
         </ul>
       </li>
+       <img
+        src="https://i.etsystatic.com/41972288/r/il/7365a9/5200425836/il_570xN.5200425836_eebb.jpg"
+        width="200"
+        id="mem3pic"
+        style="display: none"
+        />
     </ol>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script>
       $("#mem1-button").click(function () {
         $("#mem1").css("color", "purple");
-        $(mem1).text("Vacation");
+        $("#mem1").text("Vacation");
+        $("#mem1pic").show(3000)
       });
 
       $("#mem2-button").click(function () {
         $("#mem2").css("color", "blue");
+        $("#mem2").text("Dance Showcase");
+          $("#mem2pic").show(3000)
       });
 
       $("#mem3-button").click(function () {
-        $("#mem3").css("color", "green");
-    </script>
-    
-    <script
-            src+"https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    <script>
-     
+        $("#mem3").css("color", "white");
+   $("#mem3pic").show(3000)
+      });
     $("h1").text("This Years Highlights");
     
+
+  
+     
     </script>
-      });
+ 
+    
+     
     
         
     
     
     
-    </>
+ 
   </body>
 </html>
 
